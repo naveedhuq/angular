@@ -1,5 +1,4 @@
 var count = 5;
-count = 'a';
 
 let a: number;
 let b: boolean;
