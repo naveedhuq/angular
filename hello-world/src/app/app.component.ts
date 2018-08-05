@@ -10,17 +10,17 @@ export class AppComponent {
   title = 'My First Angular App';
 
   post = {
-    title: "A title of the post",
+    title: 'A title of the post',
     isFavorite: true
-  }
+  };
 
   tweet = {
     body: 'Body of the Tweet',
     isLiked: false,
-    likesCount:10
-  }
+    likesCount: 10
+  };
 
   onFavoriteChanged(eventArgs: FavoriteChangedEventArgs) {
-    console.log("Favorite Changed: ", eventArgs);
+    console.log('Favorite Changed: ', eventArgs);
   }
 }
