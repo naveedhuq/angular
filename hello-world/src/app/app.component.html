@@ -1,2 +1,14 @@
 <h1>Angular</h1>
-<courses></courses>
+<!-- <favorite [is-favorite]="post.isFavorite" (change)="onFavoriteChanged($event)"></favorite> -->
+
+<!-- <bootstrap-panel>
+    <ng-container class="heading"><h2>Heading</h2></ng-container>
+    <div class="body">
+        <h3>Body</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem officia cupiditate, ut quisquam assumenda velit dolores dolorem, nulla repellat quod eligendi sed reprehenderit tempore quasi dolorum praesentium minus quibusdam dolor?</p>
+    </div>
+</bootstrap-panel> -->
+
+<like
+    [likesCount] = "tweet.likesCount"
+    [isActive] = "tweet.isLiked"></like>
