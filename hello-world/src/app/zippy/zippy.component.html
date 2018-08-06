@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <b>{{ title }}</b>
+    <span
+      class="glyphicon"
+      [class.glyphicon-chevron-down]="!isHidden"
+      [class.glyphicon-chevron-up]="isHidden"
+      (click)="isHidden=!isHidden"></span>
+  </div>
+  <div [hidden]="isHidden" class="panel-body">
+    <ng-content></ng-content>
+  </div>
+</div>
